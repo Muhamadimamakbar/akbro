@@ -15,6 +15,7 @@
    --bg-dark: #666;
    --bg-white: #fff;
    --bg-yellow: #f6cd4b;
+   --bg-green: #43a591;
 
    /* Text Style */
    --primary-font: 'Roboto Slab', serif;
@@ -344,7 +345,7 @@ p {
 }
 
 .footer_wrapper .form-group .main-btn {
-  background-color: var(--bg-light-blue);
+  background-color: var(--bg-green);
   border-color: var(--bg-light-blue);
   color: var(--text-white);
 }
