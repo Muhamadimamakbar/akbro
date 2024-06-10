@@ -193,14 +193,14 @@ p {
 
 /* Regis */
 .main {
-  background-color: #fff;
+  background-color: var(--bg-white);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding: 75px 0px;
 }
 .form-box {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #e4ecf5;
   backdrop-filter: blur(30px);
   border-radius: 20px;
   border: 1px solid var(--bg-white);
@@ -223,16 +223,18 @@ p {
   border-radius: 0px 10px 10px 0px;
 }
 .register-btn {
-  background-color: var(--bg-yellow);
+  background-color: var(--bg-light-blue);
   border: none;
   border-radius: 10px;
   color: var(--text-white);
 }
-
-/* Footer */
-.footer_wrapper {
+.main .container img {
+    max-width: 50%;
+}
+/* Footer */.footer_wrapper {
   background-color: var(--bg-light-blue);
   padding-bottom: 0;
+  margin-top: 10px;
 
 }
 .footer_wrapper .heading input {

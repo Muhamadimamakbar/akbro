@@ -14,7 +14,7 @@
 
 
     <!-- Custom File's Link -->
-    <link rel="stylesheet" href="css/regis.css">
+    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/responsive-style.css">
 
 </head>
@@ -28,12 +28,13 @@
                 <img src="images/logoblue.png" class="img-fluid">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
                 <i class="fas fa-stream navbar-toggler-icon"></i>
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav menu-navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="artikel.html">Artikel</a>
+                    <a class="nav-link active" aria-current="page" href="artikellist.html">Artikel</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="about.html">Tentang Kami</a>
@@ -57,39 +58,29 @@
     </header>
     <!-- Navbar Section exit -->
 
-    <!-- regis section-->
+    <!-- login section-->
     <Section class="main">
-        <div class="container-fluid text-black py-3">
-            <header class="text-center">
-                <h5>Lindungi karyawan Anda dengan program Kulega</h5>
-                <p class="text-primary mb-4"><small>Lihat Bagaimana Program Kami Dapat Meningkatkan Efisiensi Anda</small></p>
-            </header>
-        </div>
         <div class="container">
             <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-12 d-flex align-items-center">
+                    <div class="text text-center">
+                        <img src="images/logoblue.png">
+                        <p class="text-white text-center">Dapatkan akses ke tes kesehatan mental, dan layanan lainnya yang dirancang untuk mendukung kesehatan mental Anda. Mulai perjalanan kesejahteraan mental Anda dengan Kulega hari ini!</p>
+                    </div>
+                </div>
                 <div class="col-lg-5 col-md-10 col-sm-12">
                     <div class="form-box px-5 py-4">
                         <form>
-                            <input type="text" name="" placeholder="Nama Perusahaan" class="form-control mb-3">
-                            <input type="text" name="" placeholder="Nama Person In Change (PIC)" class="form-control mb-3">
-                            <input type="email" name="" placeholder="Email PIC" class="form-control mb-3">
-                            <input type="number" name="" placeholder="Nomor Telepon PIC" class="form-control mb-3">
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col"><select class="form-select mb-3">
-                                        <option>Industri Perusahaan</option>
-                                        <option></option>
-                                    </select></div>
-                                    <div class="col"><select class="form-select mb-3">
-                                        <option>Industri Perusahaan</option>
-                                        <option></option>
-                                    </select></div>
-                                </div>
+                            <h2 class="text-center mb-4">Masuk Untuk Akses Akun Anda</h2>
+                            <p class="text-center mb-4">Belum terdaftar? <a href="regis.html"><b>Masuk ke Halaman Register</b></a></p>
+                            <input type="email" name="" placeholder="Masukkan email Anda" class="form-control mb-3">
+                            <div class="input-group mb-3">
+                                <input type="password" name="" placeholder="Masukkan kata sandi Anda" class="form-control border-end-0">
+                                <span class="input-group-text bg-white border-start-0"></i></span>
                             </div>
-                            <textarea class="form-control mb-3" id="exampleFormControlTextarea1" rows="3" placeholder="Alasan Registrasi (Opsional)"></textarea>
-                            <button class="register-btn form-control mb-3">Daftar</button>
+                            <button class="register-btn form-control mb-3">Masuk</button>
                             <div>
-                                <label class="text-center"><small>Dengan mendaftar, Anda juga menyetujui <a href="#"><b>Syarat & Ketentuan</b></a> kami serta <a href="#"><b>Kebijakan Privasi</b></a> Anda</small></label>
+                                <label><small><a href="#"><b>Lupa dengan kata sandi Anda?</b></a></small></label>
                             </div>
                             
                         </form> 
@@ -98,7 +89,7 @@
             </div>
         </div>
     </Section>  
-    <!-- regis section exit-->
+    <!-- login section exit-->
 
     <!-- Footer section -->
     <section id="contact" class="footer_wrapper wrapper">

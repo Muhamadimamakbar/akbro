@@ -126,7 +126,7 @@ p {
    line-height: 1.625rem;
 }
 .card {
-   border-radius: 1.625rem;
+   border-radius: .625rem;
    background-color: var(--bg-white);
    box-shadow: 1.5084rem 1.1419rem 2.5rem 0 rgb(0 0 0 / 8%);
    padding: 3.75rem 3.125rem 4.6875rem;
@@ -207,12 +207,45 @@ p {
  .banner p {
    font-size: 18px;
    margin-bottom: 40px;
-   color: var(--primary-text);
  }
 
-/* anggota */
-.container .card img {
-   max-width: 100%;
+ /* searchbar */
+ .height {
+   height: 20vh;
+}
+.form {
+   position: relative;
+}
+.form .fa-search {
+   position: absolute;
+   top: 20px;
+   left: 20px;
+   color: #9ca3af;
+}
+.form-input {
+   height: 55px;
+   text-indent: 33px;
+   border-radius: 10px;
+}
+.form-input:focus {
+   box-shadow: none;
+   border: none;
+}
+
+
+/* About */
+.about_wrapper h2 {
+  color: var(--text-black);
+}
+.about_wrapper .main-btn {
+  background-color: #f6cd4b;
+  border-color: #f6cd4b;
+  color: var(--text-white);
+}
+.about_wrapper .main-btn:hover {
+  background-color: #43a591;
+  border-color: #43a591;
+  color: var(--text-white);
 }
 
 /* Testimonial */
@@ -220,15 +253,22 @@ p {
   background-color: var(--bg-white);
   padding: 2.5rem;
 }
-.testi_wrapper .testi-content .main-btn {
+.testi_wrapper .container h3 {
+   margin-right: 80px;
+   margin-top: 10px;
+}
+.testi_wrapper .container .main-btn {
   background-color: #43a591;
   border-color: #43a591;
   color: var(--text-white);
 }
-.testi_wrapper .testi-content .main-btn:hover {
+.testi_wrapper .container .main-btn:hover {
   background-color: var(--bg-white);
   border-color: var(--bg-white);
   color: var(--text-black);
+}
+.testi_wrapper .container p {
+    color: var(--primary-text);
 }
 .card {
    margin-bottom: 15px;
